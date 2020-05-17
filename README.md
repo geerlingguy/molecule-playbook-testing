@@ -128,7 +128,7 @@ Here's the whole workflow we're targeting:
 ```yaml
 ---
 name: CI
-'on':
+on:
   pull_request:
   push:
     branches:
@@ -163,5 +163,4 @@ jobs:
           PY_COLORS: '1'
           ANSIBLE_FORCE_COLOR: '1'
           MOLECULE_DISTRO: ${{ matrix.distro }}
-        working-directory: molecule
 ```
