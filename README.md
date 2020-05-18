@@ -128,7 +128,7 @@ Here's the whole workflow we're targeting:
 ```yaml
 ---
 name: CI
-on:
+'on':
   pull_request:
   push:
     branches:
