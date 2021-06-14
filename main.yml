@@ -14,8 +14,7 @@
         state: restarted
 
   pre_tasks:
-    - name: Override Apache vars for Red Hat.
-      set_fact:
+    - set_fact:
         apache_package: httpd
         apache_service: httpd
       when: ansible_os_family == 'RedHat'
