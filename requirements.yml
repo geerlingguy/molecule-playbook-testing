@@ -1,0 +1,6 @@
+- src: galaxyproject.galaxy
+  version: 0.10.4
+- src: geerlingguy.pip
+  version: 2.0.0
+- src: uchida.miniconda
+  version: 0.3.0
